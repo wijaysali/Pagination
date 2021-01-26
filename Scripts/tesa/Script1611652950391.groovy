@@ -21,7 +21,5 @@ WebUI.acceptAlert()
 
 WebUI.navigateToUrl('')
 
-WebUI.clearText(findTestObject(null))
-
 WebUI.closeBrowser()
 
