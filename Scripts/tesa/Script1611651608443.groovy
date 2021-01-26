@@ -19,5 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('')
 
+WebUI.acceptAlert()
+
 WebUI.closeBrowser()
 
