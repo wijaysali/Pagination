@@ -31,7 +31,8 @@ index = 0
 //list for paginate buttons
 List<String> list2 = new ArrayList<>()
 WebUI.openBrowser('')
-WebUI.navigateToUrl('https://datatables.net/examples/data_sources/dom')
+WebUI.navigateToUrl('http://172.31.1.104:9000/Login.aspx')
+//WebUI.navigateToUrl('https://datatables.net/examples/data_sources/dom')
 WebDriver driver2 = DriverFactory.getWebDriver()
 'To locate paginate buttons'
 list2 = driver2.findElements(By.xpath("//a[contains(@class, 'paginate_button')]"))
